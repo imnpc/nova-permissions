@@ -34,7 +34,7 @@
             :value="option"
             :checked="isChecked(option)"
             @input="toggleOption(option)"
-            class="pr-2"
+            class="mr-2"
           />
           <label :for="field.name" v-text="label" @click="toggleOption(option)" class="w-full"></label>
         </div>
